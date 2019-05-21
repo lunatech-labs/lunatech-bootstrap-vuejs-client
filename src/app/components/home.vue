@@ -1,13 +1,12 @@
 <template>
   <div>
-    Hello World
-    <div>
+    <div class="border-div">
       <div>
         <p></p>
         <h3>ENV = {{environment}}</h3>
       </div>
       <div>
-        <button v-on:click="go">Come In!</button>
+        <button v-on:click="go">go to status Page</button>
       </div>
     </div>
   </div>
@@ -22,9 +21,15 @@ module.exports = {
   },
   methods: {
     go: function() {
-      this.$router.push((path = "welcome"));
+      this.$router.push((path = "status"));
     }
   }
 };
 </script>
+<style scoped>
+.border-div {
+  border: 1px dashed black;
+}
+</style>
+
 

@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div>
+    <div class="border-div">
       <h1>Backend status</h1>
       <div>
         <button v-on:click="getStatus">get status</button>
       </div>
       <div>
-        <p>{{status}}</p>
+        <h1>{{status}}</h1>
       </div>
     </div>
   </div>
@@ -28,4 +28,10 @@ module.exports = {
   }
 };
 </script>
+
+<style scoped>
+.border-div {
+  border: 1px dashed black;
+}
+</style>
 

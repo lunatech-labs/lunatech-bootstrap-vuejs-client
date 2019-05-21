@@ -1,12 +1,12 @@
-import helloWorld from './components/helloWorld.vue'
-import welcome from './components/welcome.vue'
+import home from './components/home.vue'
+import status from './components/status.vue'
 
 export const routes = [{
     path: '/',
-    component: helloWorld,
+    component: home,
     children: [],
 }, {
-    path: '/welcome',
-    component: welcome,
+    path: '/status',
+    component: status,
     children: [],
 }];
