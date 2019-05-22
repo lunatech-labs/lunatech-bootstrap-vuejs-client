@@ -3,7 +3,7 @@
     <div class="border-div">
       <h1>Backend status</h1>
       <div>
-        <button v-on:click="getStatus">get status</button>
+        <button v-on:click="getStatus">get status backend</button>
       </div>
       <div>
         <h1>{{status}}</h1>

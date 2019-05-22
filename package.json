@@ -4,7 +4,7 @@
     "description": "frontEnd sample project",
     "main": "index.js",
     "author": "Fsznajderman",
-    "license": "no",
+    "license": "MIT",
     "dependencies": {
         "css-loader": "^2.1.1",
         "style-loader": "^0.23.1",
