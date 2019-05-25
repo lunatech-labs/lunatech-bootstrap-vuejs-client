@@ -41,7 +41,7 @@ module.exports = env => {
         ],
         devServer: { // configuration for webpack-dev-server
             contentBase: './src/public', //source of static assets
-            port: 8081, // port to run dev-server
+            port: 8080, // port to run dev-server
             host: '0.0.0.0',
             disableHostCheck: true
         },

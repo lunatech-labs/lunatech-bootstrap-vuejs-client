@@ -2303,6 +2303,25 @@ isurl@^1.0.0-alpha5:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
 
+jquery-circle-progress@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/jquery-circle-progress/-/jquery-circle-progress-1.2.2.tgz#260e9130ac8e2b5572eaa7a93b9e8a6b27bc8eea"
+  integrity sha1-Jg6RMKyOK1Vy6qepO56Kaye8juo=
+  dependencies:
+    jquery "*"
+
+jquery-easing@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/jquery-easing/-/jquery-easing-0.0.1.tgz#b3c37525b55734dc1ee1ad09b6c3373187687715"
+  integrity sha1-s8N1JbVXNNwe4a0JtsM3MYdodxU=
+  dependencies:
+    jquery "*"
+
+jquery@*:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
+  integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
+
 json-buffer@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/json-buffer/-/json-buffer-3.0.0.tgz#5b1f397afc75d677bde8bcfc0e47e1f9a3d9a898"
@@ -4339,7 +4358,16 @@ vue-template-loader@^1.0.0:
     source-map "^0.6.1"
     vue-hot-reload-api "^2.3.0"
 
-vue@^2.6.10:
+vue2-circle-progress@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/vue2-circle-progress/-/vue2-circle-progress-1.2.3.tgz#7c38af4d84c68299c078188ead09343f74541bbf"
+  integrity sha1-fDivTYTGgpnAeBiOrQk0P3RUG78=
+  dependencies:
+    jquery-circle-progress "^1.2.2"
+    jquery-easing "0.0.1"
+    vue "^2.0.0"
+
+vue@^2.0.0, vue@^2.6.10:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==

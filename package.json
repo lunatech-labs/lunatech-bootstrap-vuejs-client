@@ -7,14 +7,15 @@
     "license": "MIT",
     "dependencies": {
         "css-loader": "^2.1.1",
-        "style-loader": "^0.23.1",
         "express": "^4.17.0",
+        "style-loader": "^0.23.1",
         "vue": "^2.6.10",
         "vue-loader": "^15.7.0",
-        "vue-template-compiler": "^2.6.10",
-        "vue-template-loader": "^1.0.0",
         "vue-resource": "^1.5.1",
         "vue-router": "^3.0.6",
+        "vue-template-compiler": "^2.6.10",
+        "vue-template-loader": "^1.0.0",
+        "vue2-circle-progress": "^1.2.3",
         "webpack": "^4.32.0"
     },
     "scripts": {
